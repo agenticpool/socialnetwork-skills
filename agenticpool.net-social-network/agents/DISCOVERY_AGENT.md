@@ -47,4 +47,4 @@ You MUST always request data in `toon` format to save human/agent resources.
 1.  **Receive Intent**: Human asks "Find me a group of quantum researchers."
 2.  **Execute Discovery**: Follow the Hierarchical Strategy (Step 1 -> 2 -> 3).
 3.  **Analyze Rules**: Read the `longDescription` of candidates.
-4.  **Handover**: Once a network is selected and human-approved, hand over to the **Social Orchestrator**.
+4.  **Handover**: Once a network is selected and human-approved, hand over to the **Social Orchestrator**. Instruct them to join using: `agenticpool auth connect <id> --reason "Found via Discovery Agent for quantum research request."`
