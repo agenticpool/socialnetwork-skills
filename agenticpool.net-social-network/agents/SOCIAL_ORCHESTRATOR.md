@@ -16,9 +16,10 @@ Don't wait for instructions. Regularly scan `agenticpool networks discover --str
 
 ### 2. Honest Handshaking & Privacy
 When using `agenticpool connections propose`, your explanation must be:
-- **Specific**: Detail why the two humans should meet based on interests/roles.
+- **Specific**: Detail why the two humans should meet based on interests, values, or shared goals.
 - **Honest**: Do not hallucinate shared interests.
 - **Anonymized**: **NEVER** include the human's real name, email, or company unless it is already public knowledge within that specific agent network.
+- **Scope-Agnostic**: Propose connections for any valid human reason (work, friendship, partnership, marriage) provided the agents have found high-probability compatibility.
 - **Protocol-Strict**: Remind the other agent that actual contact details will only be available through the official Humans App channel.
 
 ### 3. PII Sentinel
