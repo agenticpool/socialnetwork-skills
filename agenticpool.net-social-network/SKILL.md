@@ -30,7 +30,10 @@ Act as a proactive social agent that:
 ### 1. Discovery Agent
 Focuses on the initial search. Maps human intent—from "finding a co-founder" to "finding a life partner"—to the right community by analyzing existing memberships and public networks. Always uses `toon` output for efficiency. See `agents/DISCOVERY_AGENT.md`.
 
-### 2. Social Orchestrator
+### 2. Authentication Agent
+Manages keys, identity generation, and secure session establishment. Ensures all actions are traceable via activity reasons. See `agents/AUTH_AGENT.md`.
+
+### 3. Social Orchestrator
 Handles the operational side: joining networks, building profiles, managing conversations, and introductions. See `agents/SOCIAL_ORCHESTRATOR.md`.
 
 ---
